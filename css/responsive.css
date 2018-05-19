@@ -1,0 +1,535 @@
+/*		Default Layout: 992px. 
+		Gutters: 24px.
+		Outer margins: 48px.
+		Leftover space for scrollbars @1024px: 32px.
+-------------------------------------------------------------------------------
+*/
+
+
+.main_content{
+	width:1050px;
+	margin:0 auto;
+	display:block;
+}
+
+
+
+
+
+/*		Tablet Layout: 768px.
+		Gutters: 24px.
+		Outer margins: 28px.
+		Inherits styles from: Default Layout.
+-----------------------------------------------------------------
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    */
+
+@media only screen and (min-width: 768px) and (max-width: 1050px) {
+.main_content{
+	width:95%;
+	
+}
+	
+.first_f{
+	background-image:none;
+	width:31%;
+	padding: 0 1%;
+}
+	
+.medium_m{
+	background-image:none;
+	width:31%;
+	padding: 0 1%;
+	}
+	
+	.last_l{
+	background-image:none;
+	width:31%;
+	padding: 0 1%;
+	}
+	
+	.secti_top p{
+	background-image:none;
+	}
+	
+	.f_first p{
+	background-image:none;
+	}
+	
+	.sectoin_low p{
+	background-image:none;	
+	}
+	
+	.l_last p{
+	background-image:none;
+	}
+	
+	.footer_firsre p {
+    font-size: 25px;
+}
+	
+	
+	.last_div{
+		width:80%;
+	}
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*		Mobile Layout: 320px.
+		Gutters: 24px.
+		Outer margins: 34px.
+		Inherits styles from: Default Layout.
+---------------------------------------------
+cols    1     2      3
+px      68    160    252    */
+
+@media only screen and (max-width: 767px) {
+	
+
+	.main_content{
+	width:98%;
+	
+}
+	
+.first_f{
+	background-image:none;
+	width:31%;
+	padding: 0 1%;
+}
+	
+.medium_m{
+	background-image:none;
+	width:31%;
+	padding: 0 1%;
+	}
+	
+	.last_l{
+	background-image:none;
+	width:31%;
+	padding: 0 1%;
+	}
+	
+	.secti_top p{
+	background-image:none;
+	}
+	
+	.f_first p{
+	background-image:none;
+	}
+	
+	.sectoin_low p{
+	background-image:none;	
+	}
+	
+	.l_last p{
+	background-image:none;
+	}
+	
+	.footer_firsre p {
+    font-size: 25px;
+}
+	
+.logo_section {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+	
+	.logo_section p{
+		padding:10px;
+	}
+	
+.menu_section {
+	
+}
+
+	.last_div{
+		width:100%;
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+	
+	
+.first_f{
+	background-image:none;
+	width:97%;
+	padding: 0 1%;
+}
+	
+.medium_m{
+	background-image:none;
+	width:97%;
+	padding: 0 1%;
+	}
+	
+	.last_l{
+	background-image:none;
+	width:97%;
+	padding: 0 1%;
+	}
+	
+	.first_lij h1{
+	margin:0;
+	padding:5px 0;
+	}
+	
+	.medium_m p {
+    padding-bottom: 10px;
+}
+	
+	.first_f p {
+    padding-bottom: 10px;
+}
+	
+	.last_l p {
+    padding-bottom: 10px;
+}
+	
+	.lasr_menu {
+    margin-bottom:0px;
+}
+	
+	.left_angel h2 {
+    margin-top:0px;
+}
+	
+	.left_angel a{
+	margin-top:0px;
+	margin-bottom: 10px;
+	}
+	
+	.section_ber h2 {
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+	
+	.section_berdd {
+    width: 100%;
+	float:none;
+}
+	
+	.section_berllll {
+	width: 100%;
+	float:none;	
+	}
+	
+	.skill_f {
+    width: 100%;
+    float: none;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+	
+	.skill_l{
+	width: 100%;
+    float: none;
+    margin-top:10px;
+    margin-bottom:10px;
+	}
+	
+	.heading_pat h2 {
+    margin-top: 10px;
+    margin-bottom:10px;
+	}
+	
+	.three_plan {
+    width: 100%;
+    float: none;
+}
+	
+	.three_plan img{
+		width:100%;
+	}
+	
+	.footer_firsre {
+    width: 100%;
+	text-align:center;
+	}
+	
+	.footer_sec {
+		width:100%;
+		text-align:center;
+	}
+	
+	.footer_thre {
+		width:100%;
+		text-align:center;
+	}
+	
+	.footer_four {
+		width:100%;
+		text-align:center;
+	}
+	
+	.left_angel {
+    width: 100%;
+    float: none;
+}
+	
+	.comment_f{
+	overflow:hidden;
+	padding: none;
+	background-image: none;
+	text-align: center;
+	display:block;
+	}
+	
+	#babau {
+	margin-right: 36%;
+	}
+	
+	.footer_ffs {
+    width: 100%;
+	}
+	
+	.footer_lss {
+    width: 100%;
+	float:none;
+	}
+	
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+/*		Wide Mobile Layout: 480px.
+		Gutters: 24px.
+		Outer margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+------------------------------------------------------------
+cols    1     2      3      4      5
+px      68    160    252    344    436    */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+.main_content{
+	width:98%;
+	
+}
+	
+.first_f{
+	background-image:none;
+	width:31%;
+	padding: 0 1%;
+}
+	
+.medium_m{
+	background-image:none;
+	width:31%;
+	padding: 0 1%;
+	}
+	
+	.last_l{
+	background-image:none;
+	width:31%;
+	padding: 0 1%;
+	}
+	
+	.secti_top p{
+	background-image:none;
+	}
+	
+	.f_first p{
+	background-image:none;
+	}
+	
+	.sectoin_low p{
+	background-image:none;	
+	}
+	
+	.l_last p{
+	background-image:none;
+	}
+	
+	.footer_firsre p {
+    font-size: 25px;
+}
+	
+.logo_section {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+	
+	.logo_section p{
+		padding:10px;
+	}
+	
+.menu_section {
+	
+}
+
+	.last_div{
+		width:100%;
+		margin-top:5px;
+		margin-bottom:5px;
+	}
+	
+	
+.first_f{
+	background-image:none;
+	width:97%;
+	padding: 0 1%;
+}
+	
+.medium_m{
+	background-image:none;
+	width:97%;
+	padding: 0 1%;
+	}
+	
+	.last_l{
+	background-image:none;
+	width:97%;
+	padding: 0 1%;
+	}
+	
+	.first_lij h1{
+	margin:0;
+	padding:5px 0;
+	}
+	
+	.medium_m p {
+    padding-bottom: 10px;
+}
+	
+	.first_f p {
+    padding-bottom: 10px;
+}
+	
+	.last_l p {
+    padding-bottom: 10px;
+}
+	
+	.lasr_menu {
+    margin-bottom:0px;
+}
+	
+	.left_angel h2 {
+    margin-top:0px;
+}
+	
+	.left_angel a{
+	margin-top:0px;
+	margin-bottom: 10px;
+	}
+	
+	.section_ber h2 {
+    margin-top: 5px;
+    margin-bottom: 4px;
+}
+	
+	.section_berdd {
+    width: 100%;
+	float:none;
+}
+	
+	.section_berllll {
+	width: 100%;
+	float:none;	
+	}
+	
+	.skill_f {
+    width: 100%;
+    float: none;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+	
+	.skill_l{
+	width: 100%;
+    float: none;
+    margin-top:10px;
+    margin-bottom:10px;
+	}
+	
+	.heading_pat h2 {
+    margin-top: 10px;
+    margin-bottom:10px;
+	}
+	
+	.three_plan {
+    width: 100%;
+    float: none;
+}
+	
+	.three_plan img{
+		width:100%;
+	}
+	
+	.footer_firsre {
+    width: 100%;
+	text-align:center;
+	}
+	
+	.footer_sec {
+		width:100%;
+		text-align:center;
+	}
+	
+	.footer_thre {
+		width:100%;
+		text-align:center;
+	}
+	
+	.footer_four {
+		width:100%;
+		text-align:center;
+	}
+	
+	.menu_section ul li {
+    display: none;
+}
+	
+	
+	
+	
+}
+
+
+/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+-----------------------------------------------    */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
